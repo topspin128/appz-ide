@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: appzdev@cloudbourne.co
+  notify: krishnan.rejith@gmail.com
 
 build:
   version: 0.2
@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: alpha/DEV
+  context: rejith/DEV
   replicas: 1
   port:
   - 80
@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$UlYiRlcQw4Doscdodv3vruSeGc/YfKH/tc1F1/HOgPeTMUMsg84Bm"
+  IDE_PASSWORD_HASH: "appz:$2y$10$vj2SB0Hp6yNMQobwv4Oi3u/AoJT6B6VBW5kZ9Go4x8ZjNVdNleq8u"
   revision : 15
