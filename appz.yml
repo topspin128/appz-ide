@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: krishnan.rejith@gmail.com
+  notify: topspin12.8@gmail.com
 
 build:
   version: 0.2
