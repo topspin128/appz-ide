@@ -25,5 +25,5 @@ volumes:
   size: 5Gi 
 
 properties:
-  IDE_PASSWORD_HASH: "appz:$2y$10$/XROrdEkLdDtUQgMESY6g.VQIroL8jlh3JMJSW2HdjALxmPNAt.5y"
+  IDE_PASSWORD_HASH: "appz:$2y$10$LqMq5TKLCrpOWmhNkVncROkHkpcu5FalGtSnG5ysxHMKa2sQ.vuoW"
   revision : 22
